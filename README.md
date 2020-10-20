@@ -29,3 +29,9 @@ julia> HelloCExecutable_jll.hello_world(x->run(`$x`));
 Hello, Goma!
 ```
 
+# References
+
+ - [Pkg + BinaryBuilder -- The Next Generation](https://julialang.org/blog/2019/11/artifacts/)
+ - [BinaryBuilder.jl](https://github.com/JuliaPackaging/BinaryBuilder.jl)
+ - [Yggdrasil.jl](https://github.com/JuliaPackaging/Yggdrasil)
+   - Especially [Yggdrasil/H/](https://github.com/JuliaPackaging/Yggdrasil/tree/master/H)
