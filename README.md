@@ -23,6 +23,7 @@ $ julia --project=@.
  _/ |\__'_|_|_|\__'_|  |  Official https://julialang.org/ release
 |__/                   |
 
+julia> using Pkg; Pkg.instantiate()
 julia> using HelloCExecutable_jll
 
 julia> HelloCExecutable_jll.hello_world(x->run(`$x`));
