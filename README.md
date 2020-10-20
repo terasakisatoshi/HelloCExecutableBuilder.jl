@@ -13,6 +13,7 @@ $ julia -e 'using Pkg; Pkg.add("BinaryBuilder")'
 ```
 $ julia build_tarball.jl --verbose --deploy=local
 $ cd ~/.julia/dev/HelloCExecutable_jll
+$ julia --project=@.
                _
    _       _ _(_)_     |  Documentation: https://docs.julialang.org
   (_)     | (_) (_)    |
@@ -24,7 +25,7 @@ $ cd ~/.julia/dev/HelloCExecutable_jll
 
 julia> using HelloCExecutable_jll
 
-julia> HelloCExecutable_jll.hello_world(x->run(`$x`))
+julia> HelloCExecutable_jll.hello_world(x->run(`$x`));
 Hello, Goma!
 ```
 
