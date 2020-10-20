@@ -35,3 +35,8 @@ Hello, Goma!
  - [BinaryBuilder.jl](https://github.com/JuliaPackaging/BinaryBuilder.jl)
  - [Yggdrasil.jl](https://github.com/JuliaPackaging/Yggdrasil)
    - Especially [Yggdrasil/H/](https://github.com/JuliaPackaging/Yggdrasil/tree/master/H)
+
+# Appendix
+
+See also my repository
+- [HelloWrap](https://github.com/terasakisatoshi/HelloWrap)
