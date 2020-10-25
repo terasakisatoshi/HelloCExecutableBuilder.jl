@@ -30,6 +30,8 @@ julia> HelloCExecutable_jll.hello_world(x->run(`$x`));
 Hello, Goma!
 ```
 
+You can wrap [HelloCExecutable_jll](https://github.com/terasakisatoshi/HelloCExecutable_jll.jl) using [HelloCExecutable.jl](https://github.com/terasakisatoshi/HelloCExecutable.jl)
+
 # References
 
  - [Pkg + BinaryBuilder -- The Next Generation](https://julialang.org/blog/2019/11/artifacts/)
