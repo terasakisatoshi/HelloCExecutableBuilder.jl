@@ -1,4 +1,4 @@
-# HelloCExecutable
+# HelloCExecutableBuilder.jl
 
 # Usage
 
@@ -40,4 +40,4 @@ Hello, Goma!
 # Appendix
 
 See also my repository
-- [HelloWrap](https://github.com/terasakisatoshi/HelloWrap)
+- [LibHelloBuilder.jl](https://github.com/terasakisatoshi/LibHelloBuilder.jl)
