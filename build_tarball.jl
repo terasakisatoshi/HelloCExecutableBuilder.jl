@@ -1,7 +1,7 @@
 using BinaryBuilder
 
 name = "HelloCExecutable"
-version = v"0.0.1"
+version = v"0.1.0"
 
 # No sources, we're just building the testsuite
 sources = [
@@ -18,7 +18,7 @@ install_license /usr/share/licenses/MIT
 # These are the platforms we will build for by default, unless further
 # platforms are passed in on the command line
 platforms = [
-    #Linux(:armv7l; libc=:glibc, compiler_abi=CompilerABI(cxxstring_abi=:cxx11)),
+    Linux(:armv7l; libc=:glibc, compiler_abi=CompilerABI(cxxstring_abi=:cxx11)),
     Windows(:x86_64; compiler_abi=CompilerABI(cxxstring_abi=:cxx11)),
     Linux(:x86_64; libc=:glibc, compiler_abi=CompilerABI(cxxstring_abi=:cxx11)),
     MacOS(:x86_64; compiler_abi=CompilerABI(cxxstring_abi=:cxx11)),
